@@ -1,0 +1,20 @@
+import {Card} from 'react-bootstrap'
+interface Trip {
+    name: string;
+    destination: string;
+    startDate: string;
+    endDate: string;
+    description: string;
+    price: number;
+    image: string;
+    activities: string[];
+    id: string;
+}
+
+// export function ShowLocation({name, destination, startDate, endDate, description, price, image, activities, id}: Trip){
+//     return (
+//         <Card>
+//         <Card.img variant= 'top' src={image} height='200px'/>
+//         </Card>
+//     )
+// }
