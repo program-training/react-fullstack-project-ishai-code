@@ -1,0 +1,23 @@
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tripImages {
+    width: 400px;
+    height: 250px;
+    transform: cover;
+    display: flex;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid wheat;
+    margin: 20px 25px;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

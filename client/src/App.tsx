@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container>
+      <Container className="">
         <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/Trips' element={<Trips />}/>
